@@ -38,8 +38,8 @@ const items2 = useSelector(state => state.tasks.filter(task => (task.date === to
       <div className='flex justify-center content-center'>
         <div>
           {items.map((item, index) =>
-            <div className='border bg-gray-100 p-2 mt-3' key={item.id}>
-              <div className=' rounded-md  flex  w-80 md:w-auto '>
+            <div className='border rounded-md bg-gray-100 p-2 mt-3' key={item.id}>
+              <div className='  flex  w-80 md:w-auto '>
                 <p className='text-gray-800 font-semibold w-48 h-fit text-sm'>{item.text}</p>
                 <div className='flex font-semibold'>
                   <div><p className='text-red-600 ml-3 p-0.5 w-16 rounded-sm m-1 md:ml-7'>{item.status}</p></div>
@@ -53,8 +53,8 @@ const items2 = useSelector(state => state.tasks.filter(task => (task.date === to
       <div className='flex justify-center content-center'>
         <div>
           {items2.map((item, index) =>
-            <div className='border bg-gray-100 p-2 mt-3' key={item.id}>
-              <div className=' rounded-md  flex  w-80 md:w-auto '>
+            <div className='border rounded-md bg-gray-100 p-2 mt-3' key={item.id}>
+              <div className='   flex  w-80 md:w-auto '>
                 <p className='text-gray-800 font-semibold w-48 h-fit text-sm'>{item.text}</p>
                 <div className='flex font-semibold'>
                   <div><p className='text-green-600 ml-3 p-0.5 w-16 rounded-sm m-1 md:ml-7'>{item.status}</p></div>

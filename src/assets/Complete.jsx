@@ -18,8 +18,8 @@ function Complete() {
         <div>
           <p className='flex justify-center content-center  font-semibold mb-3 text-amber-600 text-xl'>Completed Tasks</p>
           {items.map((item, index) =>
-            <div className='border bg-gray-100 p-2 mt-3' key={item.id}>
-              <div className=' rounded-md  flex  w-80 md:w-auto '>
+            <div className='border rounded-md bg-gray-100 p-2 mt-3' key={item.id}>
+              <div className='   flex  w-80 md:w-auto '>
                 <p className='text-gray-800 font-semibold w-48 h-fit text-sm'>{item.text}</p>
                 <div className='flex font-semibold'>
                   <div><p className='text-green-600 ml-3 p-0.5 rounded-sm m-1 w-16 md:ml-7'>{item.status}</p></div>
